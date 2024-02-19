@@ -13,9 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="cs">
-      <body className={cn(inter.className, "h-screen bg-[#99FF99]")}>
-        <Navbar />
-        {children}
+      <body className={cn(inter.className, "h-full bg-[#99FF99]")}>
+        {" "}
+        <main className="flex flex-col h-screen">
+          <Navbar />
+          {children}
+        </main>
       </body>
     </html>
   );
