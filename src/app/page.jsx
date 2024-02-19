@@ -10,9 +10,8 @@ export default function Home() {
       </div>
       <div>
         <Link
-          href={
-            "https://drive.google.com/file/d/1-sBOCtBEh8SpNqInDQ6zQXYLNh4OWrxB/view?usp=drive_link"
-          }
+          href={"https://www.idrive.com/idrive/sh/sh?k=b4v0k7u8o8"}
+          target="_blank"
         >
           <ArrowDownToLine className="w-11 h-11 animate-bounce" />
         </Link>
